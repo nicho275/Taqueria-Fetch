@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taqueria</title>
+    <link rel="icon" href="../statics/media/icono.jpg">
+    <link rel="stylesheet" href="../statics/css/style.css">
+</head>
+<body>
+    <div class = "centro"><img src = "../statics/media/portada.jpg" alt = "portada" width= "30%" height="50%">
+    <br>
+    <form action = "../dynamics/php/domain.php" method = "POST">
+        <label for="usuario">Selecciona tu usuario:</label>
+        <br>
+        <select name="user" id="seleccion">
+            <option value="taquero">Taquero</option>
+            <option value="comensal">Comensal</option>
+        </select>
+        <button type = "submit" id="send">Enviar</button>
+
+    </form>
+
+</div>
+</body>
+</html>

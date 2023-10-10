@@ -1,0 +1,31 @@
+
+.centro{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+}
+
+.centrar{
+    text-align: center;
+}
+
+
+.table1{
+    border-collapse: collapse; 
+    width: 100%; 
+}
+
+
+.th1{
+    border: 1px solid black;
+    padding: 8px; 
+    text-align: left; 
+}
+
+
+.td1 {
+    border: 1px solid black;
+    padding: 8px; 
+    text-align: left; 
+}
